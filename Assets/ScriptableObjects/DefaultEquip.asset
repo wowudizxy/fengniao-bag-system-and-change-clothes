@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31d73892f990b04597d32a292967a6e, type: 3}
+  m_Name: DefaultEquip
+  m_EditorClassIdentifier: 
+  defaultEquip:
+  - headWear: {fileID: 21300000, guid: bd99fb5912bc9f740a88e7b15660e97c, type: 3}
+    lining: {fileID: 21300000, guid: 601d4f7bc61f1674b85083c5e7946c21, type: 3}
+    buttom: {fileID: 21300000, guid: 9ecd4638e26654b438882ec3db5fd49c, type: 3}
+    coat: {fileID: 21300000, guid: e533418b38a9ebb43b1d8e81227b8780, type: 3}
+    shoe: {fileID: 21300000, guid: 94fbe4989eaa14e41aeb59874a32114f, type: 3}
+    showHeadWear: {fileID: 21300000, guid: 7433e0df48a15c9499dcaa1ca2682124, type: 3}
+    showLining: {fileID: 21300000, guid: 76f0eea23322dc84884587d169718ac1, type: 3}
+    showButtom: {fileID: 21300000, guid: 6cfbbdab9d027c04da3227c3c0f80f6e, type: 3}
+    showCoat: {fileID: 21300000, guid: 8187aee190a38644abbab735e21236e1, type: 3}
+    showShoe: {fileID: 21300000, guid: 781449e483487734f9cdcc6340928341, type: 3}

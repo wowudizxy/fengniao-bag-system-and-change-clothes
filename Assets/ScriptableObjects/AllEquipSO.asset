@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31e93bae014ee7439ae12bc00085c4d, type: 3}
+  m_Name: AllEquipSO
+  m_EditorClassIdentifier: 
+  bagMessages:
+  - name: "\u6D77\u76D7\u5E3D\u5B50"
+    bagSprite: {fileID: 21300000, guid: 48ecba426f4634e41928d0d8139e41c6, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 8aa45668ebd8f604fae24e98d20b34a0, type: 3}
+    description: "\u6D77\u76D7\u7684\u5E3D\u5B50"
+    type: 2
+  - name: "\u6D77\u76D7\u5185\u886C"
+    bagSprite: {fileID: 21300000, guid: fbbc3af271c4525438818e4c316b45a8, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 87a80a2729c6fe84296f126ad2ded17e, type: 3}
+    description: "\u6D77\u76D7\u7684\u5185\u886C"
+    type: 3
+  - name: "\u6D77\u76D7\u5916\u5957"
+    bagSprite: {fileID: 21300000, guid: dac846ae09c94db4388f8dc878fa5967, type: 3}
+    clothesSprite: {fileID: 21300000, guid: ce3de4e94765e9a47b78c69a88d761ae, type: 3}
+    description: "\u6D77\u76D7\u7684\u5916\u5957"
+    type: 4
+  - name: "\u6D77\u76D7\u978B\u5B50"
+    bagSprite: {fileID: 21300000, guid: e8bebfa25cfa72944b368fac962c483c, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 6b89172bd11facb41a296c0f5abe5fd9, type: 3}
+    description: "\u6D77\u76D7\u7684\u978B\u5B50"
+    type: 6
+  - name: "\u6D77\u76D7\u4E0B\u88C5"
+    bagSprite: {fileID: 21300000, guid: 41e991b0230910342b611629cd04acf0, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 488164770c34ba442b2d3fde5562b7c4, type: 3}
+    description: "\u6D77\u76D7\u7684\u4E0B\u88C5"
+    type: 5
+  - name: "\u725B\u4ED4\u5E3D"
+    bagSprite: {fileID: 21300000, guid: 94281a66c3aa87346a4efad1e9faca24, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 7753e0a7b1cb75b4899a17e3148520de, type: 3}
+    description: "\u725B\u4ED4\u7684\u5E3D\u5B50"
+    type: 2
+  - name: "\u725B\u4ED4\u5185\u886C"
+    bagSprite: {fileID: 21300000, guid: 24871ac67ef268c4c83e7e6dc0d2ea53, type: 3}
+    clothesSprite: {fileID: 21300000, guid: b972915c6dbbf8a4a9d018821ee2f93e, type: 3}
+    description: "\u725B\u4ED4\u7684\u5185\u886C"
+    type: 3
+  - name: "\u725B\u4ED4\u5916\u5957"
+    bagSprite: {fileID: 21300000, guid: d7fb72b92dfdaab4890dddfd4844da93, type: 3}
+    clothesSprite: {fileID: 21300000, guid: aa41910aeba905b45bc10f646c8d961e, type: 3}
+    description: "\u725B\u4ED4\u7684\u5916\u5957"
+    type: 4
+  - name: "\u725B\u4ED4\u978B\u5B50"
+    bagSprite: {fileID: 21300000, guid: 39007d27ad2bed94786be51111992acf, type: 3}
+    clothesSprite: {fileID: 21300000, guid: f0cb9da9bec608746955ea946a4170eb, type: 3}
+    description: "\u725B\u4ED4\u7684\u978B\u5B50"
+    type: 6
+  - name: "\u725B\u4ED4\u4E0B\u88C5"
+    bagSprite: {fileID: 21300000, guid: 4227aa89106410c469c87d5367275005, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 501e08d6a7e7b8543ba81e30344a666f, type: 3}
+    description: "\u725B\u4ED4\u7684\u4E0B\u88C5"
+    type: 5
+  - name: "\u6CD5\u5E08\u5E3D\u5B50"
+    bagSprite: {fileID: 21300000, guid: 7433e0df48a15c9499dcaa1ca2682124, type: 3}
+    clothesSprite: {fileID: 21300000, guid: bd99fb5912bc9f740a88e7b15660e97c, type: 3}
+    description: "\u6CD5\u5E08\u7684\u5E3D\u5B50"
+    type: 2
+  - name: "\u6CD5\u5E08\u5185\u886C"
+    bagSprite: {fileID: 21300000, guid: 76f0eea23322dc84884587d169718ac1, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 601d4f7bc61f1674b85083c5e7946c21, type: 3}
+    description: "\u6CD5\u5E08\u7684\u5185\u886C"
+    type: 3
+  - name: "\u6CD5\u5E08\u5916\u5957"
+    bagSprite: {fileID: 21300000, guid: 6cfbbdab9d027c04da3227c3c0f80f6e, type: 3}
+    clothesSprite: {fileID: 21300000, guid: e533418b38a9ebb43b1d8e81227b8780, type: 3}
+    description: "\u6CD5\u5E08\u7684\u5916\u5957"
+    type: 4
+  - name: "\u6CD5\u5E08\u978B\u5B50"
+    bagSprite: {fileID: 21300000, guid: 781449e483487734f9cdcc6340928341, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 94fbe4989eaa14e41aeb59874a32114f, type: 3}
+    description: "\u6CD5\u5E08\u7684\u978B\u5B50"
+    type: 6
+  - name: "\u6CD5\u5E08\u4E0B\u88C5"
+    bagSprite: {fileID: 21300000, guid: 8187aee190a38644abbab735e21236e1, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 9ecd4638e26654b438882ec3db5fd49c, type: 3}
+    description: "\u6CD5\u5E08\u7684\u4E0B\u88C5"
+    type: 5
+  - name: "\u7CBE\u7075\u5E3D\u5B50"
+    bagSprite: {fileID: 21300000, guid: aa779990c8313f2428a8850e33d383aa, type: 3}
+    clothesSprite: {fileID: 21300000, guid: e95811f8358def24d8f2a8cdbae94fa0, type: 3}
+    description: "\u7CBE\u7075\u7684\u5E3D\u5B50"
+    type: 2
+  - name: "\u7CBE\u7075\u5916\u5957"
+    bagSprite: {fileID: 21300000, guid: b9229b7bef2c57b4db290d45780c0d92, type: 3}
+    clothesSprite: {fileID: 21300000, guid: 57694c60e34d96143bd51cb1bb674c9b, type: 3}
+    description: "\u7CBE\u7075\u7684\u5916\u5957"
+    type: 4
+  - name: "\u7CBE\u7075\u978B\u5B50"
+    bagSprite: {fileID: 21300000, guid: e7362862e7c65714cbe48709d9a31aa2, type: 3}
+    clothesSprite: {fileID: 21300000, guid: c7df1613008e5724cb5ad4ddefcce757, type: 3}
+    description: "\u7CBE\u7075\u7684\u978B\u5B50"
+    type: 6
+  - name: "\u7CBE\u7075\u5185\u886C"
+    bagSprite: {fileID: 21300000, guid: 42bf6bef051e1504ba27d6d7cfdde32d, type: 3}
+    clothesSprite: {fileID: 21300000, guid: c4241805c2e8b16498004231a3ee63d4, type: 3}
+    description: "\u7CBE\u7075\u7684\u5185\u886C"
+    type: 3
+  - name: "\u7CBE\u7075\u4E0B\u88C5"
+    bagSprite: {fileID: 21300000, guid: dd94ba3004196de48b992ed0cf8fba50, type: 3}
+    clothesSprite: {fileID: 21300000, guid: a7bcb948da26bed43a8da29715bdd244, type: 3}
+    description: "\u7CBE\u7075\u7684\u4E0B\u88C5"
+    type: 5

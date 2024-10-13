@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e928a3c91ac6b4847ae4d18d0071d874
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - headWearSlot: {instanceID: 0}
+  - coatSlot: {instanceID: 0}
+  - shoeSlot: {instanceID: 0}
+  - liningSlot: {instanceID: 0}
+  - ButtomSlot: {instanceID: 0}
+  - defaultEquipSO: {fileID: 11400000, guid: 96cae853baf26394d9480578e69ee15b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
